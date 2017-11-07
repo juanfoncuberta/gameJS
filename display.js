@@ -78,7 +78,7 @@ DOMDisplay.prototype.moveDisplay = function(){
     else if(playerCenter.x > right -margin) this.wrap.scrollLeft = playerCenter.x + margin-width;
 
     if(playerCenter.y < top + margin){ this.wrap.scrollTop = playerCenter.y -margin;;
-    }else if(playerCenter.y > bottom -margin){ this.wrap.scrollTop = playerCenter + margin-height;};
+    }else if(playerCenter.y > bottom -margin){ this.wrap.scrollTop = playerCenter.y + margin-height;};
 
 
 }
